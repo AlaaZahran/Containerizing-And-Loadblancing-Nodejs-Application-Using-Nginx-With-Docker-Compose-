@@ -1,0 +1,33 @@
+version: '3'
+services:
+  server1:
+    build: ./appServer1
+    ports:
+      - "81:5000"
+    volumes:
+     - server1_data:/data  
+  server2:
+    build: ./appServer2
+    ports:
+      - "82:5000"
+    volumes:
+     - server2_data:/data 
+  nginx:
+    build: ./nginxServer
+    ports:
+     - "80:80"
+    depends_on:
+     - server1
+     - server2
+    volumes:
+     - nginx_data:/data
+  redis:
+   image: 'redis'
+   volumes:
+     - redis_data:/data 
+
+volumes:
+  server1_data:
+  server2_data:
+  redis_data:
+  nginx_data:
