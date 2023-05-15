@@ -2,7 +2,7 @@
 # Containerizing-And-Loadblancing-Nodejs-Application-Using-Nginx-With-Docker-Compose
 
 
-![image](https://github.com/AlaaZahran/Containerizing-And-Loadblancing-Nodejs-Application-Using-Nginx-With-Docker-Compose-/assets/46306526/dd0b884f-b7df-48a8-9f4d-a52e3bd8f28c)
+![image](https://github.com/AlaaZahran/Containerizing-And-Loadblancing-Nodejs-Application-Using-Nginx-With-Docker-Compose-/assets/46306526/f534f888-aa42-47ef-ac4e-8f24934ea648)
 
 
 
@@ -54,6 +54,17 @@ run the following command :
 ```
 docker compose up -d
 ```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
